@@ -1,0 +1,27 @@
+local opt = vim.opt
+
+opt.fenc = "utf-8"
+opt.backup = false
+opt.autoread = true
+opt.hidden = true
+opt.showcmd = true
+opt.helplang = { "ja", "en" }
+opt.number = true
+opt.belloff = "all"
+opt.cursorline = true
+opt.showmatch = true
+opt.laststatus = 2
+opt.wildmode = "list:longest"
+opt.expandtab = true
+opt.tabstop = 4
+opt.softtabstop = 4
+opt.shiftwidth = 4
+opt.autoindent = true
+opt.smartindent = true
+opt.ignorecase = true
+opt.smartcase = true
+opt.incsearch = true
+opt.wrapscan = true
+opt.hlsearch = true
+opt.termguicolors = true
+opt.list = true

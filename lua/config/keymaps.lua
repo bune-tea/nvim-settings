@@ -1,0 +1,20 @@
+-- リーダーキーはスペースに設定
+vim.g.mapleader = " "
+local keymap = vim.keymap.set
+keymap("n", "<Esc><Esc>", ":nohlsearch<CR><Esc>", { silent = true })
+keymap("n", "<Leader>t", ":bo term<CR>")
+keymap("n", "<C-t>", ":tabnew<CR>", { silent = true })
+keymap("n", "<Leader>e", ":Neotree toggle<CR>")
+keymap("n", "U", "<C-r>")
+keymap("n", "j", "gj")
+keymap("n", "k", "gk")
+keymap("n", "<Leader>;", ":")
+keymap("n", "<Leader>h", "<C-w>h")
+keymap("n", "<Leader>hh", "<C-w>h")
+keymap("n", "<Leader>j", "<C-w>j")
+keymap("n", "<Leader>k", "<C-w>k")
+keymap("n", "<Leader>l", "<C-w>l")
+keymap("i", "jk", "<Esc>")
+keymap("v", "<", "<gv")
+keymap("v", ">", ">gv")
+keymap("t", "jk", "<C-\\><C-n>")
