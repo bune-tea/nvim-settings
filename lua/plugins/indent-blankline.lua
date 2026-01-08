@@ -1,3 +1,4 @@
+-- インデントの強調表示
 return {
     "lukas-reineke/indent-blankline.nvim",
     main = "ibl",

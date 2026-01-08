@@ -1,3 +1,4 @@
+-- 構文ハイライトをきれいに
 return {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",

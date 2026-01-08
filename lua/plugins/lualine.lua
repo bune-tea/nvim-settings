@@ -1,3 +1,4 @@
+-- ステータスラインの装飾
 return {
     "nvim-lualine/lualine.nvim",
     dependencies = { "nvim-tree/nvim-web-devicons" },

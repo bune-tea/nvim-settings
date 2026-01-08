@@ -1,4 +1,6 @@
+-- エイリアスを張る
 local autocmd = vim.api.nvim_create_autocmd
+
 -- ターミナルに移動時にターミナルジョブモードに変更
 autocmd({ "TermOpen", "BufEnter" }, {
     pattern = "*",
