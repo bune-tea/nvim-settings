@@ -1,3 +1,6 @@
+-- スクリプト読み込みの高速化
+vim.loader.enable()
+-- 各種configの読み込み
 require('config.keymaps')
 require('config.settings')
 require('config.autocmds')
