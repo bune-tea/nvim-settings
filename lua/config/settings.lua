@@ -49,3 +49,8 @@ opt.hlsearch = true
 opt.termguicolors = true
 -- 制御文字の可視化
 opt.list = true
+-- 不要なプロバイダーを無効化（起動速度も少し上がります）
+vim.g.loaded_perl_provider = 0
+vim.g.loaded_ruby_provider = 0
+-- python3のパスを指定
+-- vim.g.python3_host_prog = vim.fn.expand("~/.pyenv/versions/3.13.7/bin/python")
