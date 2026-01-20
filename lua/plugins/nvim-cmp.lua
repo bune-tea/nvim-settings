@@ -6,6 +6,7 @@ return {
       "hrsh7th/cmp-buffer",   -- バッファ内の単語
       "hrsh7th/cmp-path",     -- ファイルパス
       "L3MON4D3/LuaSnip",     -- スニペットエンジン (必須)
+      build = "make install_jsregexp",
       "saadparwaiz1/cmp_luasnip", -- スニペットソース
     },
     config = function()
