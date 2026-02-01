@@ -9,6 +9,9 @@ return{
         "MunifTanjim/nui.nvim",
     },
     opts = {
+        window = {
+            width = 30, -- ここを好きな数字に変えてください（デフォルトは40）
+        },
         filesystem = {
             filtered_items = {
                 visible = true, -- 最初から隠しファイルなどを薄く表示する
