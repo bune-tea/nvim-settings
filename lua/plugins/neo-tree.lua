@@ -8,4 +8,13 @@ return{
         "nvim-tree/nvim-web-devicons",
         "MunifTanjim/nui.nvim",
     },
+    opts = {
+        filesystem = {
+            filtered_items = {
+                visible = true, -- 最初から隠しファイルなどを薄く表示する
+                hide_dotfiles = false, -- ドットファイルを隠さない
+                hide_gitignored = false, -- .gitignoreされたファイルを隠さない
+            },
+        },
+    },
 }
