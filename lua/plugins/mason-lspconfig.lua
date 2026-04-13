@@ -23,6 +23,7 @@ return {
           "html",         -- HTML
           "cssls",        -- CSS
           "bashls",       -- Bash
+          "texlab",       -- LaTeX
         },
         -- サーバーがインストールされたら自動でセットアップするハンドラ
         handlers = {
