@@ -16,7 +16,7 @@ keymap("n", "U", "<C-r>")
 keymap("n", "j", "gj")
 keymap("n", "k", "gk")
 -- 英字キーボード用に<Leader>;でコマンドラインモードに移行
-keymap("n", "<Leader>;", ":")
+keymap("n", ";", ":")
 -- <Leader>+hjklで画面移動
 -- <Leader>hだけ、他のコマンドの候補があるため、<Leader>hhでも動けるように
 keymap("n", "<Leader>h", "<C-w>h")
