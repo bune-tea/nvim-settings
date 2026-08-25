@@ -54,3 +54,4 @@ vim.g.loaded_perl_provider = 0
 vim.g.loaded_ruby_provider = 0
 -- python3のパスを指定
 -- vim.g.python3_host_prog = vim.fn.expand("~/.pyenv/versions/3.13.7/bin/python")
+vim.opt.scrolloff = 5 -- カーソルの上下に常に5行の余白を持たせる
